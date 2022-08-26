@@ -1,0 +1,93 @@
+body{
+    background-color:hsl(0, 0%, 95%);
+    width: 85%;
+    margin-top:  1.2em;
+    margin-left:1.2em;
+}
+
+.ob_datos tr{
+    height:30px;
+}
+.ob_datos td{
+    width:auto;
+}
+
+
+
+.ob_datos,.most_data{
+   margin-left:20px;
+   margin-top:15px;
+}
+
+/***************TABLA PARA MOSTRAR DATOS*************************************************** */
+.most_data{
+    width: 90%;
+    border-spacing: 0px 10px; 
+    /* el primero es para espacio horizontal y el segundo para vertical */
+    table-layout: fixed;
+    
+}
+.most_data_th tr th{   
+   font-style:italic;
+   text-align: center;
+   padding:5px;
+   border-bottom: solid 2px hsl(0, 0%, 50%);
+}
+.most_data_td{
+    text-align: center; 
+    padding:3px;
+}
+thead th:nth-child(1){
+    width: 10%;
+}
+thead th:nth-child(2){
+    width: 10%;
+}
+thead th:nth-child(3){
+    width: 10%;
+}
+thead th:nth-child(4){
+    width: 10%;
+}
+thead th:nth-child(5){
+    width: 12%;
+}
+thead th:nth-child(6){
+    width: 12%;
+}
+thead th:nth-child(7){
+   border: none;
+   width: 12%;
+}
+thead th:nth-child(8){
+    border: none;
+    width: 12%;
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color:hsl(160, 45%, 22%);
+    font-weight: bold;
+    padding: 3px;
+    margin-left:5px;
+    background-color: hsla(160, 45%, 85%, 0.76) ;
+    border-radius: 5px;
+}
+
+a:hover{
+    color:hsl(0, 0%, 16%);
+    text-decoration: underline;
+    background-color: transparent;
+    border: 2px solid hsl(160, 45%, 22%) ;
+    
+}
+
+.hidden{
+    display: none;
+}
+
